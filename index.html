@@ -1,0 +1,593 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js - The HTML Presentation Framework</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+<div class="slides">
+    <section>
+        <h1>js in thephotolabs</h1>
+        <p>
+        <br>
+    </p>
+    <p>
+    <br>
+</p>
+<p>
+<br>
+</p>
+<p>A brief overview of the (many) JS libs used&nbsp;</p>
+<p>in the construction of ThePhotoLabs.com</p>
+</section>
+<section>
+    <h2>What IS ThePhotoLabs?</h2>
+    <div>
+        <br>
+    </div>
+    <div>
+        <br>
+    </div>
+    <div>
+        <br>
+    </div>
+    <div>
+        <br>
+    </div>
+    <div>
+        <br>
+    </div>
+    <div>A web app for HDR photographers.</div>
+</section>
+<section>
+    <h2>What IS HDR Photography?</h2>
+<div>
+    <br>
+</div>
+<div>
+    <br>
+</div>
+<div>
+    <br>
+</div>
+<div>
+    <br>
+</div>
+<div class="fragment fade-in">HDR = High Dynamic Range</div>
+<div>
+    <br>
+</div>
+<div>
+    <br>
+</div>
+<div>
+    <br>
+</div>
+<div>
+    <br>
+</div>
+<div>
+    <br>
+</div>
+<div class="fragment fade-in">wat?</div>
+
+
+
+
+</section>
+    <section>
+        <h2>
+    </h2>
+<h2 style="font-style: normal; font-variant: normal;">A better Question : WHY HDR?</h2>
+    <div style="font-family: Lato, Times, 'Times New Roman', serif; font-size: 35.509735107421875px; font-style: normal; font-variant: normal; line-height: 43.1879997253418px; letter-spacing: normal; text-transform: none;">
+        <br>
+    </div>
+    <div style="font-family: Lato, Times, 'Times New Roman', serif; font-size: 35.509735107421875px; font-style: normal; font-variant: normal; line-height: 43.1879997253418px; letter-spacing: normal; text-transform: none;">
+        <br>
+    </div>
+    <div style="font-family: Lato, Times, 'Times New Roman', serif; font-size: 35.509735107421875px; font-style: normal; font-variant: normal; line-height: 43.1879997253418px; letter-spacing: normal; text-transform: none;">
+        <br>
+    </div>
+<div style="font-family: Lato, Times, 'Times New Roman', serif; font-size: 35.509735107421875px; font-style: normal; font-variant: normal; line-height: 43.1879997253418px; letter-spacing: normal; text-transform: none;">
+    <br>
+    </div>
+    <div style="font-family: Lato, Times, 'Times New Roman', serif; font-size: 35.509735107421875px; font-style: normal; font-variant: normal; line-height: 43.1879997253418px; letter-spacing: normal; text-transform: none;" class="fragment fade-in">Eyes are fantastic optical instruments.</div>
+    <div style="font-family: Lato, Times, 'Times New Roman', serif; font-size: 35.509735107421875px; font-style: normal; font-variant: normal; line-height: 43.1879997253418px; letter-spacing: normal; text-transform: none;">
+        <br>
+    </div>
+    <div style="font-family: Lato, Times, 'Times New Roman', serif; font-size: 35.509735107421875px; font-style: normal; font-variant: normal; line-height: 43.1879997253418px; letter-spacing: normal; text-transform: none;">
+        <br>
+    </div>
+    <div style="font-family: Lato, Times, 'Times New Roman', serif; font-size: 35.509735107421875px; font-style: normal; font-variant: normal; line-height: 43.1879997253418px; letter-spacing: normal; text-transform: none;">
+        <br>
+        </div>
+    <div style="font-family: Lato, Times, 'Times New Roman', serif; font-size: 35.509735107421875px; font-style: normal; font-variant: normal; line-height: 43.1879997253418px; letter-spacing: normal; text-transform: none;">
+        <br>
+    </div>
+    <div style="font-family: Lato, Times, 'Times New Roman', serif; font-size: 35.509735107421875px; font-style: normal; font-variant: normal; line-height: 43.1879997253418px; letter-spacing: normal; text-transform: none;" class="fragment fade-in">Cameras are not as good.</div>
+        <div style="font-family: Lato, Times, 'Times New Roman', serif; font-size: 35.509735107421875px; font-style: normal; font-variant: normal; line-height: 43.1879997253418px; letter-spacing: normal; text-transform: none;">
+            <br>
+        </div>
+    <div style="font-family: Lato, Times, 'Times New Roman', serif; font-size: 35.509735107421875px; font-style: normal; font-variant: normal; line-height: 43.1879997253418px; letter-spacing: normal; text-transform: none;" class="fragment fade-in">And kind of dumb.</div>
+
+
+</section>
+        <section>
+            <h2>You Don't Want This</h2>
+<div>
+    <br>
+</div>
+<div>
+    <br>
+</div>
+<div>
+    <img src="http://d25g4bo4csvihf.cloudfront.net/assets/too_dark-54bfe248a25a6f3b7ad6b11a5c12bc76.jpg">
+    <br>
+</div>
+<div>
+    <br>
+</div>
+
+
+
+
+</section>
+            <section>
+                <h2>OR This</h2>
+                <div>
+                    <br>
+                </div>
+                <div>
+                    <br>
+                </div>
+                <div>
+                    <img src="http://d36ytzorki5b0q.cloudfront.net/assets/too_light-2b3bdbb83e557b587bbf63986047e2b4.jpg">
+                    <br>
+                </div>
+            </section>
+            <section>
+                <h2>
+                    <br>
+                </h2>
+                <div>
+                    <br>
+                </div>
+                <div>
+                    <br>
+                </div>
+                <div>
+                    <img src="http://www.deque.com/padam/img/rage-guy-meh-face.gif">
+                    <br>
+                </div>
+            </section>
+            <section>
+                <h2>WHAT IS HDR?</h2>
+<div>
+    <br>
+</div>
+                <div>
+                    <br>
+                    </div>
+<div>
+    <br>
+</div>
+<div class="fragment fade-in">
+
+<div>A method to try to overcome</div>
+<div>the suckiness delta between&nbsp;</div>
+<div>
+    <span style="font-family: Lato, Times, 'Times New Roman', serif; font-size: 35.509735107421875px; font-style: normal; font-variant: normal; line-height: 43.1879997253418px;">cameras, monitors, and printers</span>
+</div>
+<div>vs</div>
+<div>
+    <span style="letter-spacing: -0.02em;">the human eye</span>.</div>
+                    <div>
+                        <br>
+                    </div>
+                    <div>
+                        <br>
+                    </div>
+
+    <div>
+        <br>
+    </div>
+    <div>
+        <a href="http://www.thephotolabs.com/hdr">http://www.thephotolabs.com/hdr</a>
+        <br>
+    </div>
+    <div>
+        <a href="http://www.thephotolabs.com/hdr_process">http://www.thephotolabs.com/hdr_process</a>
+        <br>
+    </div>
+</div>
+</section>
+                    <section>
+                        <img src="http://d36ytzorki5b0q.cloudfront.net/assets/hdr-dd3bd17fa00bffdde8a8e390a3808b7c.jpg">
+</section>
+                        <section>
+                            <h2>Basic Utility Libs</h2>
+<div style="text-align: left;">
+    <br>
+    <div style="text-align: left;">
+    <ul>
+        <li class="fragment fade-in">JQuery - Cross browser abstraction, DOM selection/manipulation, AJAX</li>
+        <li class="fragment fade-in">JQueryUI - Datepicker, Draggable, Droppable, Effect Fade, Selectable, Slider, Sortable</li>
+        <li class="fragment fade-in">
+            Backbone.js - Client side MVC &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="letter-spacing: -0.02em;">(OK, mostly just MV, not so much C)</span>
+</li>
+<li class="fragment fade-in">
+    <span style="letter-spacing: -0.02em;">Underscore.js - Required by Backbone</span>
+</li>
+<li class="fragment fade-in">
+    <span style="letter-spacing: -0.02em;">Twitter Bootstrap - Tabs, Modals, Accordions, Drop Downs, Tooltips</span>
+</li>
+</ul>
+</div>
+</div>
+</section>
+                            <section>
+                                <h2>Yes, You're Right</h2>
+                                <div>
+                                    <br>
+                                </div>
+                                <div>That *IS* a lot of 'utility' libraries.</div>
+                            </section>
+                            <section>
+                                <h2>PJAX</h2>
+<div>
+    <br>
+</div>
+<div>
+    <a href="https://github.com/defunkt/jquery-pjax">https://github.com/defunkt/jquery-pjax</a>
+    <br>
+</div>
+<div>
+    <br>
+</div>
+<div class="fragment fade-in">
+<div>Load only a portion of the content on navigation events.</div>
+<div>
+    <br>
+</div>
+<div>Not the entire page.</div>
+</div>
+<div>
+    <br>
+</div>
+
+<div class="fragment fade-in">Avoids extra JS/CSS parsing and setup.</div>
+<div>
+    <br>
+</div>
+<div class="fragment fade-in">
+<div>Used for gallery navigation (among other things).</div>
+<div>
+    <br>
+</div>
+<div>
+    <a href="http://www.thephotolabs.com/galleries/99">http://www.thephotolabs.com/galleries/99</a>
+    <br>
+</div>
+<div>
+    <br>
+</div>
+</div>
+</section>
+                                <section>
+                                    <h2>PLUPload</h2>
+                                    <div>
+                                        <a href="http://www.plupload.com/">http://www.plupload.com/</a>
+                                        <br>
+                                    </div>
+                                    <div>
+                                        <br>
+                                    </div>
+                                    <div>Drag &amp; Drop Uploads</div>
+                                    <div>
+                                        <br>
+                                    </div>
+                                    <div>
+                                        <br>
+                                    </div>
+                                    <div>
+                                        <br>
+                                    </div>
+                                    <div>
+                                        <br>
+                                    </div>
+                                    <div>
+                                        <br>
+                                    </div>
+                                    <div>
+                                        <br>
+                                    </div>
+                                    <div>
+                                        <br>
+                                    </div>
+                                    <div>
+                                        <br>
+                                    </div>
+                                    <div>
+                                        <a href="http://www.thephotolabs.com/photos/uploader">http://www.thephotolabs.com/photos/uploader</a>
+                                        <br>
+                                    </div>
+                                </section>
+                                <section>
+                                    <h2>PUSHEr</h2>
+                                    <div>
+                                        <br>
+                                    </div>
+                                    <div>
+                                        <a href="http://pusher.com/">http://pusher.com/</a>
+                                        <br>
+                                    </div>
+                                    <div>
+                                        <br>
+                                    </div>
+                                    <div>Real time push notifications.</div>
+                                    <div>
+                                        <br>
+                                    </div>
+                                    <div>Trigger events on the client directly from your server.</div>
+                                </section>
+                                <section>
+                                    <h2>JQuery Gritter</h2>
+                                    <div>
+                                        <br>
+                                    </div>
+                                    <div>
+                                        <a href="http://boedesign.com/blog/2009/07/11/growl-for-jquery-gritter/">http://boedesign.com/blog/2009/07/11/growl-for-jquery-gritter/</a>
+                                        <br>
+                                    </div>
+                                    <div>
+                                        <br>
+                                    </div>
+                                    <div>
+                                        <br>
+                                    </div>
+                                    <div>Growl type pop up notifications.</div>
+                                    <div>
+                                        <br>
+                                    </div>
+                                    <div>
+                                        <br>
+                                    </div>
+                                    <div>Receive events from Pusher and trigger Gritter.</div>
+                                </section>
+                                <section>
+                                    <h2>Chosen</h2>
+                                    <div>
+                                        <a href="http://harvesthq.github.io/chosen/">
+                                            <br>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="javascript:nicTemp();">http://harvesthq.github.io/chosen/</a>
+                                        <br>
+                                    </div>
+                                    <div>
+                                        <br>
+                                    </div>
+                                    <div>
+                                        <br>
+                                    </div>
+                                    <div>Awesome select lists</div>
+                                </section>
+                                <section>
+                                    <h2>JQuery UI Touch PUnch</h2>
+<div>
+    <a href="http://touchpunch.furf.com/">http://touchpunch.furf.com/</a>
+    <br>
+</div>
+<div>
+    <br>
+</div>
+<div>Punch some touch friendlyness</div>
+<div>into JQuery UI.</div>
+<div class="fragment fade-in">
+    <img src="http://img.gawkerassets.com/img/18ixe59vdesatjpg/ku-xlarge.jpg">
+    <br>
+</div>
+</section>
+                                    <section>
+                                        <h2>Backbone Paginator</h2>
+                                        <div>
+                                            <br>
+                                        </div>
+                                        <div>
+                                            <br>
+                                        </div>
+                                        <div>
+                                            <br>
+                                        </div>
+                                        <div>
+                                            <br>
+                                        </div>
+                                        <div>
+                                            <a href="https://github.com/addyosmani/backbone.paginator">https://github.com/addyosmani/backbone.paginator</a>
+                                            <br>
+                                        </div>
+                                        <div>
+                                            <br>
+                                        </div>
+                                        <div>
+                                            <br>
+                                        </div>
+                                        <div>
+                                            <br>
+                                        </div>
+                                        <div>
+                                            <br>
+                                        </div>
+                                        <div>
+                                            <br>
+                                        </div>
+                                        <div>Pagination for Backbone collections.</div>
+                                    </section>
+                                    <section>
+                                        <h2>caman JS</h2>
+                                        <div>
+                                            <a href="http://camanjs.com/">
+                                                <br>
+                                            </a>
+                                        </div>
+                                        <div>
+                                            <a href="http://www.thephotolabs.com/composites/25850/edit">http://camanjs.com/</a>
+                                            <br>
+                                        </div>
+                                        <div>
+                                            <br>
+                                        </div>
+                                        <div>
+                                            <br>
+                                        </div>
+                                        <div>Image manipulation via &lt;canvas&gt;</div>
+                                        <div>
+                                            <br>
+                                        </div>
+                                        <div>
+                                            <br>
+                                        </div>
+                                        <div>
+                                            <br>
+                                        </div>
+                                        <div>
+                                            <br>
+                                        </div>
+                                        <div>
+                                            <br>
+                                        </div>
+                                        <div>
+                                            <br>
+                                        </div>
+                                        <div>
+                                            <a href="javascript:nicTemp();">http://www.thephotolabs.com/composites/25850/edit</a>
+                                            <br>
+                                        </div>
+                                    </section>
+                                    <section>
+                                        <h2>Pixastic</h2>
+                                        <div>
+                                            <a href="http://www.pixastic.com/">http://www.pixastic.com/</a>
+                                            <br>
+                                        </div>
+                                        <div>
+                                            <br>
+                                        </div>
+                                        <div>
+                                            <br>
+                                        </div>
+                                        <div>More image manipulation.</div>
+                                        <div>
+                                            <br>
+                                        </div>
+                                        <div>
+                                            <br>
+                                        </div>
+                                        <div>Only used to build histograms.</div>
+                                        <div>
+                                            <br>
+                                        </div>
+                                        <div>
+                                            <br>
+                                        </div>
+                                        <div>Luckily they provide a customized mini build.</div>
+                                        <div>
+                                            <br>
+                                        </div>
+                                        <div>
+                                            <br>
+                                        </div>
+                                        <div>
+                                            <a href="http://www.thephotolabs.com/composites/25850/edit">http://www.thephotolabs.com/composites/25850/edit</a>
+                                            <br>
+                                        </div>
+                                    </section>
+                                    <section>
+                                        <h2>Thanks For Watching!</h2>
+                                        <div>
+                                            <br>
+                                        </div>
+                                        <div>Jeremy Green</div>
+                                        <div>jeremy@octolabs.com</div>
+                                        <div>
+                                            <br>
+                                        </div>
+                                        <div>
+                                            <img src="http://www.octolabs.com/assets/octologo-8d2cdf01e08427c79ef2def5b314abeb.png">
+                                            <br>
+                                        </div>
+                                        <div>
+                                            <br>
+                                        </div>
+                                        <div>
+                                            <a href="http://www.octolabs.com/">http://www.octolabs.com/</a>
+                                            <br>
+                                        </div>
+                                    </section>
+                                </div>
+	    
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
